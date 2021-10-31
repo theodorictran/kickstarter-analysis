@@ -31,16 +31,17 @@ Once the table was completed and checked for errors, I created a line chart to v
 
 ![Outcomes_vs_Goals](https://user-images.githubusercontent.com/91519293/139602291-280528f7-8474-4f91-b0fc-5225f3f5e23a.png)
 
-
 ### Challenges and Difficulties Encountered
-
+I did not experience any challenges or difficulties during my analysis. However, when writing the COUNTIFS() statements to determine the number of projects that were either successful, that failed, or were canceled could be difficult without understanding the logic behind the calculation and translating to a statement. Another issue that potential pose an issue when conducting analysis is the usage of filters and getting lost within those filters. 
 
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
+Projects that launched between the months of May and August ended up being up successful with the highest amount of projects seeing success were launched in May. From this,     the best time launch a theater project would be during May.
 
 - What can you conclude about the Outcomes based on Goals?
-
+The Outcomes Based on Goals visualization focuses on purely campaigns for plays. Play campaigns with a goal amount larger than $25,000 tend to fail more often with play campaigns with a goal less than $10,000 seem to succeed more often. Play campaigns with a goal amount that is less than $5000 saw the most success. 
 - What are some limitations of this dataset?
-
+The amount of recorded campaigns is a limitation for the dataset, for in total across all categories there are only 4114 campaigns. When filtering between different parent categories and subcategories, the working sample set can get extreme small for statistical analysis. In addition, because the dataset is not inherently large (10,000+), campaigns under certain categories are misrepresented. For example, on the "Outcomes Based on Goals" sheet, majority of the play campaigns have budgets of less than $10,000 accounting for 889 projects out of 1047 projects.
 - What are some other possible tables and/or graphs that we could create?
+The Theater Outcomes vs Launch visualization accounts for all subcategories under theater parent category. The chart tells how theater campaigns perform between different months for launch dates is helpful, but not specific to plays for Louise. To be specific for Louise, recreating the same chart and filtering for strictly campaigns for plays is much more appropriate. Creating another line chart to see the relationship between outcomes of play campaigns vs deadline could be interesting as well, for its possible that campaigns with stricter deadline tend to fail.
